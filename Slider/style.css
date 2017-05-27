@@ -116,7 +116,10 @@ generated automatically and are common for each slider. */
 
 .accordion-content {
     position: relative;
-    overflow: auto;
+    overflow: hidden;
+    -o-overflow: hidden;
+    -moz-overflow: hidden;
+    -webkit-overflow: hidden;
 }
 
 .accordion-separator {
