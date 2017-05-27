@@ -41,6 +41,9 @@
     height: 290px;
     font-size: 15px;
     transition: background-color 0.5s ease 0;
+    -o-transition: background-color 0.5s ease 0;
+    -moz-transition: background-color 0.5s ease 0;
+    -webkit-transition: background-color 0.5s ease 0;
 }
 
 .accordion-title span {
