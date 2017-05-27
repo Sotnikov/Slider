@@ -40,10 +40,10 @@
     width: 40px;
     height: 290px;
     font-size: 15px;
-    transition: background-color 0.5s ease 0;
-    -o-transition: background-color 0.5s ease 0;
-    -moz-transition: background-color 0.5s ease 0;
-    -webkit-transition: background-color 0.5s ease 0;
+    transition: background-color 0.5s linear 0;
+    -o-transition: background-color 0.5s linear 0;
+    -moz-transition: background-color 0.5s linear 0;
+    -webkit-transition: background-color 0.5s linear 0;
 }
 
 .accordion-title span {
@@ -85,6 +85,9 @@
 generated automatically and are common for each slider. */
 .accordion {
     overflow: hidden;
+    -o-overflow: hidden;
+    -moz-overflow: hidden;
+    -webkit-overflow: hidden;
 }
 
 .accordion > ul {
